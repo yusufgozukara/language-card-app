@@ -1,11 +1,12 @@
 
+import './Card.css'
 
-const Card = ({name, img, options}) => {
+const Card = ({name, img, options, index}) => {
 
 
 
   return (
-    <div  className="minicard">
+    <div  className="minicard" key={index}>
         <img src={img} alt="logoimage" />
         
         <p>{name}</p>
