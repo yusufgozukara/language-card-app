@@ -22,4 +22,5 @@
 
 .minicard p{
     text-align: center;
+    text-transform: capitalize;
 }
