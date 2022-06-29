@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url(../src/components/assets/react.svg);
+  background-position: top center;
+  background-repeat: no-repeat; */
+  background-color: #f4d366;
+  
 }
 
 code {
